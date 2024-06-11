@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int sum odd digits(int n)
+{
+    if(n==0)
+        return 0;
+    else
+        return n%10+sum of digits (n/10);
+    
+}
+    int main()
+    {
+        int n;
+        scanf("%d",&n);
+        intr=sum of digits(n);
+        printf("%d",r);
+    }
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
