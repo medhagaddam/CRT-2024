@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String gender = scanner.next();
+        int age = scanner.nextInt();
+        if ((gender.equalsIgnoreCase("M") && age >= 60) || 
+            (gender.equalsIgnoreCase("F") && age >= 58)) {
+            System.out.println("Senior Citizen");
+        } else {
+            System.out.println("Not A Senior Citizen");
+        }
+        scanner.close();
+    }
+}
